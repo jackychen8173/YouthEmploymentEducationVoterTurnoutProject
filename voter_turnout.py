@@ -22,4 +22,4 @@ df_pivoted = df_cleaned.pivot_table(
 )
 df_pivoted.reset_index(inplace=True)
 
-df_pivoted.to_csv("out.csv")
+df_pivoted.to_csv("voter_turnout.csv")
