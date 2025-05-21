@@ -1595,7 +1595,6 @@ year,location,education_level,status,value
 2020,Northwest Territories,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",21.0
 2021,Northwest Territories,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",22.0
 2022,Northwest Territories,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",20.0
-2004,Nunavut,"Total, all education levels","Total, in education and not in education",
 2005,Nunavut,"Total, all education levels","Total, in education and not in education",100.0
 2006,Nunavut,"Total, all education levels","Total, in education and not in education",100.0
 2007,Nunavut,"Total, all education levels","Total, in education and not in education",100.0
@@ -1614,7 +1613,6 @@ year,location,education_level,status,value
 2020,Nunavut,"Total, all education levels","Total, in education and not in education",100.0
 2021,Nunavut,"Total, all education levels","Total, in education and not in education",100.0
 2022,Nunavut,"Total, all education levels","Total, in education and not in education",100.0
-2004,Nunavut,"Total, all education levels","Total, in education",
 2005,Nunavut,"Total, all education levels","Total, in education",32.0
 2006,Nunavut,"Total, all education levels","Total, in education",33.0
 2007,Nunavut,"Total, all education levels","Total, in education",33.0
@@ -1633,7 +1631,6 @@ year,location,education_level,status,value
 2020,Nunavut,"Total, all education levels","Total, in education",30.0
 2021,Nunavut,"Total, all education levels","Total, in education",31.0
 2022,Nunavut,"Total, all education levels","Total, in education",26.0
-2004,Nunavut,"Total, all education levels","Employed, in education",
 2005,Nunavut,"Total, all education levels","Employed, in education",4.0
 2006,Nunavut,"Total, all education levels","Employed, in education",7.0
 2007,Nunavut,"Total, all education levels","Employed, in education",9.0
@@ -1652,7 +1649,6 @@ year,location,education_level,status,value
 2020,Nunavut,"Total, all education levels","Employed, in education",5.0
 2021,Nunavut,"Total, all education levels","Employed, in education",4.0
 2022,Nunavut,"Total, all education levels","Employed, in education",7.0
-2004,Nunavut,"Total, all education levels","Total, not in education",
 2005,Nunavut,"Total, all education levels","Total, not in education",68.0
 2006,Nunavut,"Total, all education levels","Total, not in education",67.0
 2007,Nunavut,"Total, all education levels","Total, not in education",67.0
@@ -1671,7 +1667,6 @@ year,location,education_level,status,value
 2020,Nunavut,"Total, all education levels","Total, not in education",70.0
 2021,Nunavut,"Total, all education levels","Total, not in education",69.0
 2022,Nunavut,"Total, all education levels","Total, not in education",74.0
-2004,Nunavut,"Total, all education levels","Employed, not in education",
 2005,Nunavut,"Total, all education levels","Employed, not in education",36.0
 2006,Nunavut,"Total, all education levels","Employed, not in education",39.0
 2007,Nunavut,"Total, all education levels","Employed, not in education",40.0
@@ -1690,7 +1685,6 @@ year,location,education_level,status,value
 2020,Nunavut,"Total, all education levels","Employed, not in education",33.0
 2021,Nunavut,"Total, all education levels","Employed, not in education",28.0
 2022,Nunavut,"Total, all education levels","Employed, not in education",38.0
-2004,Nunavut,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",
 2005,Nunavut,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",31.0
 2006,Nunavut,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",28.0
 2007,Nunavut,"Total, all education levels","Sub-total, not in employment, education or training (NEET)",27.0
