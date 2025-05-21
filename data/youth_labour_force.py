@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("youth_labour_force.csv")
+df = pd.read_csv("data/youth_labour_force.csv")
 columns_to_keep = ["REF_DATE", "GEO", "Educational attainment level", "Labour force and education status", "VALUE"]
 
 df = df[columns_to_keep]
@@ -15,7 +15,7 @@ df = df.rename(columns={
 })
 df = df.dropna(subset=['value'])
 
-df.to_csv("youth_labour_force_out.csv", index=False)
+df.to_csv("data/youth_labour_force_out.csv", index=False)
 
 grouped = df.groupby(['location', 'education_level', 'status'])
 for (location, edu, status), subset in grouped:
