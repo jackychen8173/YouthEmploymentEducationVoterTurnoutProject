@@ -5,23 +5,16 @@ const StatsCanData = () => {
     const[data, setData] = useState(null);
 
     useEffect(() => {
-        const apiUrl = 'https://www150.statcan.gc.ca/t1/wds/rest/getFullTableDownloadCSV/14100287/en';
-
-        const fetchData = async () => {
-            try {
-                const res = await fetch(apiUrl);
-                const json = await res.json();
-
-                const csvUrl = json.object;
-
-                const csvData = await d3.csv(csvUrl);
-                setData(csvData);
-            } catch (error) {
-                console.error("Errorr fetching StatsCan data", error);
-            }
-        }
-        fetchData();
-    }, {});
+        const csvUrl = 'http://localhost:3001/api/statscan';
+        fetch(csvUrl)
+        .then(res => res.text())
+        .then(text => {
+            const data = d3.csvParse(text);
+            console.log(data);
+            setData(data);
+        })
+        .catch(err => console.error("Failed to load CSV: ", err));
+    }, []);
 
     return (
         <div>
